@@ -69,7 +69,7 @@ export default {
           break;
       }
 
-      return color;
+      return color + ' is-light';
     },
   },
   methods: {
