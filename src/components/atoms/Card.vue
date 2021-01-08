@@ -40,7 +40,7 @@
     </div>
     <footer class="card-footer">
       <a class="card-footer-item" @click="emitLeftButtonClicked">Follow</a>
-      <a class="card-footer-item">View</a>
+      <a class="card-footer-item" @click="emitRightButtonClicked">View</a>
     </footer>
   </div>
 </template>
@@ -71,10 +71,15 @@ export default {
   },
   methods: {
     emitLeftButtonClicked() {
-      console.log(`${this.cardContent.firstname} ${this.cardContent.lastname}`);
       this.$emit(
         "buttonClicked:left",
         `${this.cardContent.firstname} ${this.cardContent.lastname}`
+      );
+    },
+    emitRightButtonClicked() {
+      this.$emit(
+        "buttonClicked:right",
+        this.cardContent
       );
     },
   },

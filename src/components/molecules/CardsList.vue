@@ -5,6 +5,7 @@
       :key="card.rankink"
       :card-content="card"
       @buttonClicked:left="emitLeftCtaClicked"
+      @buttonClicked:right="emitRightCtaClicked"
       class="styns__card column is-12"
     />
     <div v-if="isListEmpty" class="column is-12">
@@ -53,6 +54,9 @@ export default {
   methods: {
       emitLeftCtaClicked(info) {
           this.$emit('card:leftCtaClicked', info)
+      },
+      emitRightCtaClicked(info) {
+          this.$emit('card:rightCtaClicked', info)
       }
   }
 };
