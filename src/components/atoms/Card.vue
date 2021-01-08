@@ -97,14 +97,18 @@ export default {
     left: 24px;
     top: 12px;
     .country-flag {
-      border: 3px solid white;
-      box-shadow: 10px 5px 5px #eeeeee;
-      border-radius: 2em;
+      border: 2px solid white;
+      box-shadow: 5px 4px 11px 2px#eeeeee;
+      border-radius: .5em;
     }
   }
 
   .media-content {
     overflow-y: hidden;
+  }
+
+  .card-footer-item {
+      color: #348300;
   }
 }
 </style>

@@ -25,9 +25,9 @@ export default {
     displayToastNoAction(info) {
       this.$buefy.toast.open({
         duration: 4000,
-        message: `We will assume that you are now following <br><b>${info}</b>. 😏`,
+        message: `We will assume that you are now following <br><b>${info}</b>. 🎾😏`,
         position: 'is-bottom',
-        type: 'is-danger'
+        type: 'is-success'
       });
     },
   },
