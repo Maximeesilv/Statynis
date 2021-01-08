@@ -61,5 +61,6 @@ export default {
 <style lang="scss">
 .styns__card {
   margin: 1em 2em;
+  border-radius: 1em!important;
 }
 </style>

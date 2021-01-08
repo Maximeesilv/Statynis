@@ -85,8 +85,6 @@ export default {
 @import "../../styles/global.scss";
 
 .styns__card {
-  border-radius: 0.75rem;
-
   .card-img {
     border-radius: 0.25em;
   }
