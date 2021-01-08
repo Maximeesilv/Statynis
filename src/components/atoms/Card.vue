@@ -23,9 +23,6 @@
             #{{ cardContent.data.rank }} | {{ cardContent.firstname }}
             {{ cardContent.lastname }}
           </span>
-          <span class="subtitle is-6">
-            {{ cardContent.shortname }}
-          </span>
           <br />
           <span class="title is-6">
             Points: {{ cardContent.data.points }}
