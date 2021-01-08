@@ -1,14 +1,14 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import PlayerDetails from "../views/PlayerDetails.vue";
+import RankingPlayers from "../views/RankingPlayers.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "PlayerDetails",
-    component: PlayerDetails
+    name: "RankingPlayers",
+    component: RankingPlayers
   }
 ];
 

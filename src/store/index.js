@@ -4,8 +4,18 @@ import Vuex from "vuex";
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
-  actions: {},
+  state: {
+    players: []
+  },
+  actions: {
+    getPlayers() {
+
+    }
+  },
+  mutations: {
+    SET_PLAYERS(state, players) {
+      
+    }
+  },
   modules: {}
 });
