@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="container">
     <the-header />
-    <router-view class="--full-page-height"/>
+    <router-view/>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <b-navbar>
+  <b-navbar :fixed-top="true">
     <template slot="brand">
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img src="@/assets/brandlogo.png" alt="Oxynum Agency logo" />
